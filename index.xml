@@ -6,10 +6,19 @@
     <description>Recent content on OOMORI.LUNCH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jan 2018 13:58:57 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2018 14:29:51 +0900</lastBuildDate>
     
 	<atom:link href="https://renoinn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hoge</title>
+      <link>https://renoinn.github.io/post/hoge/</link>
+      <pubDate>Mon, 08 Jan 2018 14:29:51 +0900</pubDate>
+      
+      <guid>https://renoinn.github.io/post/hoge/</guid>
+      <description>AAA hogehoge</description>
+    </item>
     
     <item>
       <title>Test</title>
