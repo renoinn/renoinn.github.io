@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>https://renoinn.github.io/post/hoge/</loc>
+    <loc>https://renoinn.github.io/posts/hoge/</loc>
     <lastmod>2018-01-08T14:29:51+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://renoinn.github.io/post/test/</loc>
+    <loc>https://renoinn.github.io/posts/test/</loc>
     <lastmod>2018-01-08T13:58:57+09:00</lastmod>
   </url>
   
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://renoinn.github.io/post/</loc>
+    <loc>https://renoinn.github.io/posts/</loc>
     <lastmod>2018-01-08T14:29:51+09:00</lastmod>
     <priority>0</priority>
   </url>
