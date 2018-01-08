@@ -22,12 +22,12 @@ php and android developer. I love coffee and curry.</description>
     </item>
     
     <item>
-      <title>Hoge</title>
-      <link>https://renoinn.github.io/posts/hoge/</link>
+      <title>ブログ立ててみた</title>
+      <link>https://renoinn.github.io/posts/blog-start/</link>
       <pubDate>Mon, 08 Jan 2018 14:29:51 +0900</pubDate>
       
-      <guid>https://renoinn.github.io/posts/hoge/</guid>
-      <description>AAA hogehoge foooooo</description>
+      <guid>https://renoinn.github.io/posts/blog-start/</guid>
+      <description>hugoを使ってgithub pagesでブログを立ててみた。技術的な事とか思った事を書いてく予定。</description>
     </item>
     
     <item>
