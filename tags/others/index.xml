@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Others on OOMORI.LUNCH</title>
+    <link>https://renoinn.github.io/tags/others/</link>
+    <description>Recent content in Others on OOMORI.LUNCH</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jan 2018 14:29:51 +0900</lastBuildDate>
+    
+	<atom:link href="https://renoinn.github.io/tags/others/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ブログ立ててみた</title>
+      <link>https://renoinn.github.io/posts/blog-start/</link>
+      <pubDate>Mon, 08 Jan 2018 14:29:51 +0900</pubDate>
+      
+      <guid>https://renoinn.github.io/posts/blog-start/</guid>
+      <description>hugoを使ってgithub pagesでブログを立ててみた。技術的な事とか思った事を書いてく予定。</description>
+    </item>
+    
+  </channel>
+</rss>

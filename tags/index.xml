@@ -6,9 +6,19 @@
     <description>Recent content in Tags on OOMORI.LUNCH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 08 Jan 2018 14:29:51 +0900</lastBuildDate>
     
 	<atom:link href="https://renoinn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Others</title>
+      <link>https://renoinn.github.io/tags/others/</link>
+      <pubDate>Mon, 08 Jan 2018 14:29:51 +0900</pubDate>
+      
+      <guid>https://renoinn.github.io/tags/others/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
