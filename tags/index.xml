@@ -6,10 +6,28 @@
     <description>Recent content in Tags on OOMORI.LUNCH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 Jan 2018 14:29:51 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 17:32:27 +0900</lastBuildDate>
     
 	<atom:link href="https://renoinn.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Javascript</title>
+      <link>https://renoinn.github.io/tags/javascript/</link>
+      <pubDate>Tue, 01 May 2018 17:32:27 +0900</pubDate>
+      
+      <guid>https://renoinn.github.io/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nodejs</title>
+      <link>https://renoinn.github.io/tags/nodejs/</link>
+      <pubDate>Tue, 01 May 2018 17:32:27 +0900</pubDate>
+      
+      <guid>https://renoinn.github.io/tags/nodejs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Others</title>

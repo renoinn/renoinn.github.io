@@ -6,10 +6,21 @@
     <description>Recent content on OOMORI.LUNCH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 15:51:41 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 01 May 2018 17:32:27 +0900</lastBuildDate>
     
 	<atom:link href="https://renoinn.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>nodebrewでnodejsをアップデートする</title>
+      <link>https://renoinn.github.io/posts/node-update-brew/</link>
+      <pubDate>Tue, 01 May 2018 17:32:27 +0900</pubDate>
+      
+      <guid>https://renoinn.github.io/posts/node-update-brew/</guid>
+      <description>気付いたら最新版と自分の環境がかなり離れてしまったので、nodebrewで開発環境をアップデートする。
+$ nodebrew install stable $ nodebrew use stable $ node -v v10.0.0  ついでに、npmもアップデートする。
+$ npm install -g npm $ npm version { npm: &#39;6.0.0&#39;, ares: &#39;1.14.0&#39;, cldr: &#39;33.0&#39;, http_parser: &#39;2.8.0&#39;, icu: &#39;61.1&#39;, modules: &#39;64&#39;, napi: &#39;3&#39;, nghttp2: &#39;1.29.0&#39;, node: &#39;10.0.0&#39;, openssl: &#39;1.1.0h&#39;, tz: &#39;2018c&#39;, unicode: &#39;10.0&#39;, uv: &#39;1.20.2&#39;, v8: &#39;6.6.346.24-node.5&#39;, zlib: &#39;1.2.11&#39; }  </description>
+    </item>
     
     <item>
       <title>コーチングセッション 第一回目</title>

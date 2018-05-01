@@ -4,16 +4,16 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
   
-  <title>コーチングセッション 第一回目</title>
-  <meta property="og:title" content="コーチングセッション 第一回目" />
-  <meta name="twitter:title" content="コーチングセッション 第一回目" />
+  <title>nodebrewでnodejsをアップデートする</title>
+  <meta property="og:title" content="nodebrewでnodejsをアップデートする" />
+  <meta name="twitter:title" content="nodebrewでnodejsをアップデートする" />
   
 
   
 
   <meta name="author" content="renoinn"/>
   <meta property="og:site_name" content="OOMORI.LUNCH" />
-  <meta property="og:url" content="https://renoinn.github.io/posts/coaching-1/" />
+  <meta property="og:url" content="https://renoinn.github.io/posts/node-update-brew/" />
 
   
   <meta name="twitter:card" content="summary" />
@@ -49,62 +49,51 @@
 
 <article class="p-article">
   <header>
-    <h1>コーチングセッション 第一回目</h1>
+    <h1>nodebrewでnodejsをアップデートする</h1>
     <div>
       <div class="c-time">
         Posted on
-        <time datetime="2018-05-01T15:51:41&#43;09:00">
+        <time datetime="2018-05-01T17:32:27&#43;09:00">
           May 1, 2018
         </time>
       </div>
       
-      <a href="https://renoinn.github.io/tags/%E3%82%B3%E3%83%BC%E3%83%81%E3%83%B3%E3%82%B0" class="c-tag">コーチング</a>
+      <a href="https://renoinn.github.io/tags/javascript" class="c-tag">javascript</a>
+      
+      <a href="https://renoinn.github.io/tags/nodejs" class="c-tag">nodejs</a>
       
     </div>
   </header>
   
   <section id="js-article" class="p-article__body">
-    
+    <p>気付いたら最新版と自分の環境がかなり離れてしまったので、<a href="https://github.com/hokaccha/nodebrew">nodebrew</a>で開発環境をアップデートする。</p>
 
-<p>先日、会社でコーチングについてのセッションを受けた。今回は第一回目で、今後も続いていくらしいので、忘れないように覚書き。</p>
+<pre><code>$ nodebrew install stable
+$ nodebrew use stable
+$ node -v
+v10.0.0
+</code></pre>
 
-<h1 id="そもそもコーチングとは">そもそもコーチングとは？</h1>
+<p>ついでに、npmもアップデートする。</p>
 
-<p>コーチングとは、相手が望むゴールに向かって導いてあげることである。</p>
-
-<p>人に何かを教えたり助ける行為にはいくつか種類がある。</p>
-
-<ul>
-<li>teaching</li>
-<li>coaching</li>
-<li>traning</li>
-<li>counseling</li>
-<li>consulting</li>
-<li>facilitator</li>
-</ul>
-
-<p>それぞれ目的や主体、コミュニケーションの方法が違う。コーチングでは、本人の中にある未来像を明確にしてあげて、そこまで導いてあげることになる。</p>
-
-<h1 id="区別を明確にして使い分ける">区別を明確にして使い分ける</h1>
-
-<p>上記の6つの指導法は一度の指導の中で無意識に複数使っている場合がある。
-これらを自分の中で明確に区別して使い分けることで、それぞれのパフォーマンスを上げられる（かもしれない）</p>
-
-<h1 id="承認する">承認する</h1>
-
-<p>コーチングでは主に質問をして相手の未来像を引き出すことになるが、この時承認を意識することで傾聴力を高めて、相手のコミットメントを向上させられる。</p>
-
-<p>承認には3種類ある。</p>
-
-<ul>
-<li>存在承認</li>
-<li>変化・成長承認</li>
-<li>成果承認</li>
-</ul>
-
-<p>まずはとにかく意識して承認してみる。この時、&rdquo;評価&rdquo;が入ると承認ではなくなってしまう。「ある状態を受け止める」ところで止めて、それがどうであるか（すごいとか良くないとか）はグッと堪える。</p>
-
-<p>承認することで自他がどう変わるかを考える。また、どのような承認をするとより効果的か考える。</p>
+<pre><code>$ npm install -g npm
+$ npm version
+{ npm: '6.0.0',
+  ares: '1.14.0',
+  cldr: '33.0',
+  http_parser: '2.8.0',
+  icu: '61.1',
+  modules: '64',
+  napi: '3',
+  nghttp2: '1.29.0',
+  node: '10.0.0',
+  openssl: '1.1.0h',
+  tz: '2018c',
+  unicode: '10.0',
+  uv: '1.20.2',
+  v8: '6.6.346.24-node.5',
+  zlib: '1.2.11' }
+</code></pre>
 
   </section>
   <footer>
@@ -113,12 +102,11 @@
       <div class="c-pagination__ctrl">
         <div class="c-pagination__newer">
           
-          <a href="https://renoinn.github.io/posts/node-update-brew/">Newer</a>
           
         </div>
         <div class="c-pagination__older">
           
-          <a href="https://renoinn.github.io/about/">Older</a>
+          <a href="https://renoinn.github.io/posts/coaching-1/">Older</a>
           
         </div>
       </div>
