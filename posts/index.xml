@@ -6,10 +6,21 @@
     <description>Recent content in Posts on OOMORI.LUNCH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 May 2018 17:32:27 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 12:48:44 +0900</lastBuildDate>
     
 	<atom:link href="https://renoinn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>create-react-appからTypescript&#43;Reactで動かすまで</title>
+      <link>https://renoinn.github.io/posts/react-typescript-1/</link>
+      <pubDate>Thu, 03 May 2018 12:48:44 +0900</pubDate>
+      
+      <guid>https://renoinn.github.io/posts/react-typescript-1/</guid>
+      <description>$ create-react-app my-app $ npm run eject $ npm install -g webpack $ npm install --save @types/react @types/react-dom $ npm install --save-dev typescript ts-loader source-map-loader $ vim tsconfig.json  tsconfig.jsonを作る。内容は下記。
+{ &amp;quot;compilerOptions&amp;quot;: { &amp;quot;outDir&amp;quot;: &amp;quot;./dist/&amp;quot;, &amp;quot;sourceMap&amp;quot;: true, &amp;quot;noImplicitAny&amp;quot;: true, &amp;quot;module&amp;quot;: &amp;quot;commonjs&amp;quot;, &amp;quot;target&amp;quot;: &amp;quot;es5&amp;quot;, &amp;quot;jsx&amp;quot;: &amp;quot;react&amp;quot; }, &amp;quot;include&amp;quot;: [ &amp;quot;./src/**/*&amp;quot; ] }  config/paths.jsのappIndexJsのパスをindex.tsxのパスに変更する。
+// config after eject: we&#39;re in ./config/ module.exports = { dotenv: resolveApp(&#39;.env&#39;), appBuild: resolveApp(&#39;build&#39;), appPublic: resolveApp(&#39;public&#39;), appHtml: resolveApp(&#39;public/index.</description>
+    </item>
     
     <item>
       <title>nodebrewでnodejsをアップデートする</title>

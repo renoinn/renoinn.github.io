@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Javascript on OOMORI.LUNCH</title>
-    <link>https://renoinn.github.io/tags/javascript/</link>
-    <description>Recent content in Javascript on OOMORI.LUNCH</description>
+    <title>React on OOMORI.LUNCH</title>
+    <link>https://renoinn.github.io/tags/react/</link>
+    <description>Recent content in React on OOMORI.LUNCH</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 03 May 2018 12:48:44 +0900</lastBuildDate>
     
-	<atom:link href="https://renoinn.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://renoinn.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <description>$ create-react-app my-app $ npm run eject $ npm install -g webpack $ npm install --save @types/react @types/react-dom $ npm install --save-dev typescript ts-loader source-map-loader $ vim tsconfig.json  tsconfig.jsonを作る。内容は下記。
 { &amp;quot;compilerOptions&amp;quot;: { &amp;quot;outDir&amp;quot;: &amp;quot;./dist/&amp;quot;, &amp;quot;sourceMap&amp;quot;: true, &amp;quot;noImplicitAny&amp;quot;: true, &amp;quot;module&amp;quot;: &amp;quot;commonjs&amp;quot;, &amp;quot;target&amp;quot;: &amp;quot;es5&amp;quot;, &amp;quot;jsx&amp;quot;: &amp;quot;react&amp;quot; }, &amp;quot;include&amp;quot;: [ &amp;quot;./src/**/*&amp;quot; ] }  config/paths.jsのappIndexJsのパスをindex.tsxのパスに変更する。
 // config after eject: we&#39;re in ./config/ module.exports = { dotenv: resolveApp(&#39;.env&#39;), appBuild: resolveApp(&#39;build&#39;), appPublic: resolveApp(&#39;public&#39;), appHtml: resolveApp(&#39;public/index.</description>
-    </item>
-    
-    <item>
-      <title>nodebrewでnodejsをアップデートする</title>
-      <link>https://renoinn.github.io/posts/node-update-brew/</link>
-      <pubDate>Tue, 01 May 2018 17:32:27 +0900</pubDate>
-      
-      <guid>https://renoinn.github.io/posts/node-update-brew/</guid>
-      <description>気付いたら最新版と自分の環境がかなり離れてしまったので、nodebrewで開発環境をアップデートする。
-$ nodebrew install stable $ nodebrew use stable $ node -v v10.0.0  ついでに、npmもアップデートする。
-$ npm install -g npm $ npm version { npm: &#39;6.0.0&#39;, ares: &#39;1.14.0&#39;, cldr: &#39;33.0&#39;, http_parser: &#39;2.8.0&#39;, icu: &#39;61.1&#39;, modules: &#39;64&#39;, napi: &#39;3&#39;, nghttp2: &#39;1.29.0&#39;, node: &#39;10.0.0&#39;, openssl: &#39;1.1.0h&#39;, tz: &#39;2018c&#39;, unicode: &#39;10.0&#39;, uv: &#39;1.20.2&#39;, v8: &#39;6.6.346.24-node.5&#39;, zlib: &#39;1.2.11&#39; }  </description>
     </item>
     
   </channel>
